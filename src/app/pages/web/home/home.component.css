@@ -1,0 +1,8 @@
+.imagen-fondo{
+    height: 70vh;
+    width: 100%;
+    background-image: url('../../../../assets/fondo.webp');
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll
+};
