@@ -8,6 +8,7 @@ import { MenuItem } from 'primeng/api';
 })
 export class HomeComponent implements OnInit {
   
+  srcImagen = '../../../assets/sobre-nosotros.webp';
   itemsWeb!: MenuItem[];
 
   constructor() { }

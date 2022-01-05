@@ -9,3 +9,8 @@
 p-card{
     background-color: aqua;
 }
+img.w-full{
+    height: 16rem;
+    object-fit: cover;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.472);
+}
