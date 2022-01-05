@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { WebRoutingModule } from './web-routing.module';
 import { HomeComponent } from './home/home.component';
-import {MenubarModule} from 'primeng/menubar';
 import { SharedModule } from '../shared/shared.module';
+import { PrimeNgModule } from '../prime-ng/prime-ng.module';
 
 @NgModule({
   declarations: [
@@ -13,8 +13,8 @@ import { SharedModule } from '../shared/shared.module';
   imports: [
     CommonModule,
     WebRoutingModule,
-    MenubarModule,
-    SharedModule
+    SharedModule,
+    PrimeNgModule
   ]
 })
 export class WebModule { }
